@@ -5,7 +5,7 @@ const fizzer = (num) => {
 
 describe('input/output of the main fizzbuzz app', () => {
     it('should return "Fizz"', () => {
-        const fizzyNumbers = [ 3, 6, 9, 1002, 9003 ];
+        const fizzyNumbers = [ 3, 13, 9, 43, 9003 ];
         fizzyNumbers.forEach((num) => {
             expect(fizzer(num)).toEqual('Fizz');
         });
@@ -19,7 +19,7 @@ describe('input/output of the main fizzbuzz app', () => {
     });
 
     it('should return "FizzBuzz"', () => {
-        const fizzyAndBuzzyNumbers = [15, 30, 45, 1500];
+        const fizzyAndBuzzyNumbers = [15, 30, 35, 45, 1500];
         fizzyAndBuzzyNumbers.forEach((num) => {
             expect(fizzer(num)).toEqual('FizzBuzz');
         });
@@ -27,7 +27,7 @@ describe('input/output of the main fizzbuzz app', () => {
 
 
     it('should return the number itself', () => {
-        const nonChanginNumbers = [0, 1, 2, 4, 7, 8, 11, 13, 14, 16, 17];
+        const nonChanginNumbers = [0, 1, 2, 4, 7, 8, 11, 14, 16, 17];
         nonChanginNumbers.forEach((num) => {
             expect(fizzer(num)).toEqual(num);
         });
