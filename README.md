@@ -45,5 +45,3 @@ FizzBuzz
 Please try take roughly 20min to write that!
 
 I provided the `src` folder with a basic test for the fizzbuzz output.
-
-You can run the test and the programm with
