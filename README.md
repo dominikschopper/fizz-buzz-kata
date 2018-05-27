@@ -45,3 +45,5 @@ FizzBuzz
 Please try take roughly 20min to write that!
 
 I provided the `src` folder with a basic test for the fizzbuzz output.
+
+When you are done with this part of the kata pls checkout the branch `new-features-1`
