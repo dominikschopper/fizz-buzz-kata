@@ -10,12 +10,15 @@ the programm prints out all natural numbers starting at
 0 until the given number.
 
 Every time the number it should print out is divisable by 3
+<span style="color:red">or the number contains a 3</span>
 it prints out the word "Fizz" instead
 
 Every time the number it should print out is divisable by 5
+<span style="color:red">or the number contains a 5</span>
 it prints out the word "Buzz" instead
 
 Every time the number it should print out is divisable by 3 *and* 5
+<span style="color:red">or the contains a 3 or a 5</span>
 it should print out the word "FizzBuzz" instead
 
 Write tests for all functions before you implement them
@@ -23,7 +26,7 @@ Write tests for all functions before you implement them
 The output should look like this:
 
 ```bash
-me@somewhere:~/fizzbuzz> node src/app.js 16
+me@somewhere:~/fizzbuzz> node src/app.js 25
 1
 2
 Fizz
@@ -36,14 +39,30 @@ Fizz
 Buzz
 11
 Fizz
-13
+Fizz
 14
 FizzBuzz
 16
+17
+Fizz
+19
+Buzz
+Fizz
+22
+Fizz
+Fizz
+Buzz
 ```
 
 Please try take roughly 20min to write that!
 
 I provided the `src` folder with a basic test for the fizzbuzz output.
 
-When you are done with this part of the kata pls checkout the branch `new-features-1`
+When you want to change the challenge use instead the branch `new-features-1b`
+
+## Discuss
+
+- how much effort was it to put the new requirements in?
+- how much of the original codfe had to be changed
+- how much did you have to change existing functions/classes/methods/signatures to fit in
+  more/other functionality?
