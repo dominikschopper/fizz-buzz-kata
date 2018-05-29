@@ -1,6 +1,6 @@
 /* of course this is something you should require ... */
 const fizzer = (num) => {
-    return((num % 3) ? num : 'Fizz');
+    return (num % 3) ? num : 'Fizz';
 }
 
 describe('input/output of the main fizzbuzz app', () => {
