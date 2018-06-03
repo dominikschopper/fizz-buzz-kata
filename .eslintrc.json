@@ -98,7 +98,7 @@
         "max-lines": "error",
         "max-nested-callbacks": "error",
         "max-params": "error",
-        "max-statements": "error",
+        "max-statements": "off",
         "max-statements-per-line": "error",
         "multiline-comment-style": [
             "error",
@@ -182,7 +182,7 @@
         "no-sync": "error",
         "no-tabs": "error",
         "no-template-curly-in-string": "error",
-        "no-ternary": "warn",
+        "no-ternary": "off",
         "no-throw-literal": "error",
         "no-trailing-spaces": "off",
         "no-undef-init": "error",
