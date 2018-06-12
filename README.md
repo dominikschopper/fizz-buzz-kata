@@ -10,23 +10,20 @@ the programm prints out all natural numbers starting at
 0 until the given number.
 
 Every time the number it should print out is divisable by 3
-<span style="color:red">or the number contains a 3</span>
 it prints out the word "Fizz" instead
 
 Every time the number it should print out is divisable by 5
-<span style="color:red">or the number contains a 5</span>
 it prints out the word "Buzz" instead
 
 Every time the number it should print out is divisable by 3 *and* 5
-<span style="color:red">or the contains a 3 or a 5</span>
 it should print out the word "FizzBuzz" instead
 
-Write tests for all functions before you implement them
+Write tests for all functions *before* you implement them
 
 The output should look like this:
 
 ```bash
-me@somewhere:~/fizzbuzz> node src/app.js 25
+me@somewhere:~/fizzbuzz> npm start 25
 1
 2
 Fizz
