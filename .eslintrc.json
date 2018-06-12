@@ -38,7 +38,7 @@
             "error",
             "never"
         ],
-        "class-methods-use-this": "error",
+        "class-methods-use-this": "warn",
         "comma-dangle": "error",
         "comma-spacing": [
             "error",
@@ -57,7 +57,7 @@
         "consistent-this": "error",
         "curly": "error",
         "default-case": "error",
-        "dot-location": "error",
+        "dot-location": ["warn", "property"],
         "dot-notation": "error",
         "eol-last": "off",
         "eqeqeq": "error",
@@ -159,7 +159,7 @@
         "no-new-require": "error",
         "no-new-wrappers": "error",
         "no-octal-escape": "error",
-        "no-param-reassign": "error",
+        "no-param-reassign": "warn",
         "no-path-concat": "error",
         "no-plusplus": "error",
         "no-process-env": 0,
