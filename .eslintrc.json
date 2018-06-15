@@ -17,7 +17,7 @@
         "array-bracket-spacing": "off",
         "array-callback-return": "error",
         "array-element-newline": "off",
-        "arrow-body-style": "warn",
+        "arrow-body-style": "off",
         "arrow-parens": [
             "error",
             "always"
@@ -57,7 +57,7 @@
         "consistent-this": "error",
         "curly": "error",
         "default-case": "error",
-        "dot-location": "error",
+        "dot-location": "off",
         "dot-notation": "error",
         "eol-last": "off",
         "eqeqeq": "error",
@@ -159,7 +159,7 @@
         "no-new-require": "error",
         "no-new-wrappers": "error",
         "no-octal-escape": "error",
-        "no-param-reassign": "error",
+        "no-param-reassign": "warn",
         "no-path-concat": "error",
         "no-plusplus": "error",
         "no-process-env": 0,
